@@ -9,8 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { createGlobalStyle } from "styled-components"
 
-import "../font/font.css"
-
 import Header from "./header"
 
 const GlobalStyle = createGlobalStyle`
