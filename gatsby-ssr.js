@@ -8,7 +8,6 @@ const React = require("react")
 const CleanCSS = require("clean-css")
 
 const staticStyle = `
-  <!-- font-face defined-in gatsby-ssr.js -->
   @font-face {
     font-family: 'Fira Code';
     font-display: fallback;
@@ -16,7 +15,6 @@ const staticStyle = `
     font-weight: normal;
     font-style: normal;
   }
-
   @font-face {
     font-family: 'Fira Code';
     font-display: fallback;
@@ -25,6 +23,7 @@ const staticStyle = `
     font-style: normal;
   }
 `
+
 // eslint-disable-next-line no-underscore-dangle
 const __html = new CleanCSS().minify(staticStyle).styles
 
